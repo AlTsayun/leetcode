@@ -10,4 +10,8 @@ public class ReverseBits_190 {
             return n;
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println(new Solution().reverseBits(1));
+    }
 }

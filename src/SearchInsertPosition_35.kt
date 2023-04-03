@@ -6,7 +6,7 @@ class SearchInsertPositionKt {
             var middle = (min + max) / 2
             while (min < max) {
                 if (nums[middle] == target) {
-                    return middle;
+                    return middle
                 }
 
                 if (nums[middle] < target) {

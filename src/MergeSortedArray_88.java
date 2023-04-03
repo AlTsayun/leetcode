@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MergeSortedArray_88 {
     static class Solution {
         public void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -29,6 +31,8 @@ public class MergeSortedArray_88 {
         }
     }
     public static void main(String[] args) {
-
+        var res = new int[]{1, 2, 3, 0, 0, 0};
+        new Solution().merge(res, 3, new int[] {4, 5, 6}, 3);
+        System.out.println(Arrays.toString(res));
     }
 }

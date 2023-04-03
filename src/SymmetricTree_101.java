@@ -14,6 +14,7 @@ public class SymmetricTree_101 {
     }
 
     public static void main(String[] args) {
-
+        var root = new TreeNode();
+        System.out.println(new Solution().isSymmetric(root));
     }
 }

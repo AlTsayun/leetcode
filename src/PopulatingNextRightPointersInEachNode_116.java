@@ -1,5 +1,6 @@
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayDeque;
-import java.util.Queue;
 
 public class PopulatingNextRightPointersInEachNode_116 {
     static class Solution {
@@ -41,6 +42,14 @@ public class PopulatingNextRightPointersInEachNode_116 {
     }
 
     public static void main(String[] args) {
+        var root = createTree();
+        System.out.println(new Solution().connect(root));
+        root = createTree();
+        System.out.println(new Solution().connectInDepth(root));
+    }
+
+    @NotNull
+    private static Node createTree() {
         var root = new Node(1);
         root.left = new Node(2);
         root.right = new Node(3);
@@ -48,8 +57,6 @@ public class PopulatingNextRightPointersInEachNode_116 {
         root.left.right = new Node(5);
         root.right.left = new Node(6);
         root.right.right = new Node(7);
-
-        new Solution().connect(root);
-        System.out.println(root);
+        return root;
     }
 }

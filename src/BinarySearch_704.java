@@ -1,8 +1,10 @@
 public class BinarySearch_704 {
     static class Solution {
-        public int search(int[] nums, int target) {
-            // return recursiveSearch(nums, 0, nums.length, target);
+        public int searchIterative(int[] nums, int target) {
             return iterativeSearch(nums, target);
+        }
+        public int searchRecursive(int[] nums, int target) {
+             return recursiveSearch(nums, 0, nums.length, target);
         }
 
         private int recursiveSearch(int[] nums, int start, int end, int target) {
@@ -34,9 +36,13 @@ public class BinarySearch_704 {
         }
     }
     public static void main(String[] args) {
-        System.out.println(new Solution().search(new int[]{1, 2, 3, 4, 7, 8}, 7));
-        System.out.println(new Solution().search(new int[]{-1, 5, 100}, -1));
-        System.out.println(new Solution().search(new int[]{15, 19}, 19));
-        System.out.println(new Solution().search(new int[]{0}, 0));
+        System.out.println(new Solution().searchIterative(new int[]{1, 2, 3, 4, 7, 8}, 7));
+        System.out.println(new Solution().searchRecursive(new int[]{1, 2, 3, 4, 7, 8}, 7));
+        System.out.println(new Solution().searchIterative(new int[]{-1, 5, 100}, -1));
+        System.out.println(new Solution().searchRecursive(new int[]{-1, 5, 100}, -1));
+        System.out.println(new Solution().searchIterative(new int[]{15, 19}, 19));
+        System.out.println(new Solution().searchRecursive(new int[]{15, 19}, 19));
+        System.out.println(new Solution().searchIterative(new int[]{0}, 0));
+        System.out.println(new Solution().searchRecursive(new int[]{0}, 0));
     }
 }

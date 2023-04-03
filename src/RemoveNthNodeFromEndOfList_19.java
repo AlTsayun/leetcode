@@ -43,5 +43,6 @@ public class RemoveNthNodeFromEndOfList_19 {
     public static void main(String[] args) {
         var head = ListNode.createNodes(1,2,3,4,5);
         System.out.println(new Solution().removeNthFromEnd(head, 5));
+        System.out.println(new Solution().removeNthFromEnd2(head, 4));
     }
 }

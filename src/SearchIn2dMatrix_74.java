@@ -3,9 +3,14 @@ public class SearchIn2dMatrix_74 {
 
         private int[][] matrix;
 
-        public boolean searchMatrix(int[][] matrix, int target) {
+        public boolean searchMatrixIterative(int[][] matrix, int target) {
             this.matrix = matrix;
             return iterativeSearch(matrix.length * matrix[0].length, target);
+        }
+
+        public boolean searchMatrixRecursive(int[][] matrix, int target) {
+            this.matrix = matrix;
+            return recursiveSearch(0, matrix.length * matrix[0].length, target);
         }
 
         private boolean recursiveSearch(int start, int end, int target) {
@@ -41,9 +46,13 @@ public class SearchIn2dMatrix_74 {
         }
     }
     public static void main(String[] args) {
-        System.out.println(new Solution().searchMatrix(new int[][]{{1, 2, 3}, {4, 7, 8}}, 7));
-        System.out.println(new Solution().searchMatrix(new int[][]{{-1, 5, 100}}, -1));
-        System.out.println(new Solution().searchMatrix(new int[][]{{15}, {19}}, 19));
-        System.out.println(new Solution().searchMatrix(new int[][]{{0}}, 0));
+        System.out.println(new Solution().searchMatrixIterative(new int[][]{{1, 2, 3}, {4, 7, 8}}, 7));
+        System.out.println(new Solution().searchMatrixRecursive(new int[][]{{1, 2, 3}, {4, 7, 8}}, 7));
+        System.out.println(new Solution().searchMatrixIterative(new int[][]{{-1, 5, 100}}, -1));
+        System.out.println(new Solution().searchMatrixRecursive(new int[][]{{-1, 5, 100}}, -1));
+        System.out.println(new Solution().searchMatrixIterative(new int[][]{{15}, {19}}, 19));
+        System.out.println(new Solution().searchMatrixRecursive(new int[][]{{15}, {19}}, 19));
+        System.out.println(new Solution().searchMatrixIterative(new int[][]{{0}}, 0));
+        System.out.println(new Solution().searchMatrixRecursive(new int[][]{{0}}, 0));
     }
 }

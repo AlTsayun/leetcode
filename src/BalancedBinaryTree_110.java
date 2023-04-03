@@ -70,6 +70,7 @@ public class BalancedBinaryTree_110 {
         root.right.left = new TreeNode(15);
         root.right.right = new TreeNode(7);
         System.out.println(new Solution().isBalancedExceptionally(root));
+        System.out.println(new Solution().isBalanced(root));
 
         root = new TreeNode(1);
         root.left = new TreeNode(2);
@@ -79,5 +80,6 @@ public class BalancedBinaryTree_110 {
         root.left.left.left = new TreeNode(4);
         root.left.left.right = new TreeNode(4);
         System.out.println(new Solution().isBalancedExceptionally(root));
+        System.out.println(new Solution().isBalanced(root));
     }
 }

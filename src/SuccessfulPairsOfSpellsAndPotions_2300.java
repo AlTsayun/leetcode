@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class SuccessfulPairsOfSpellsAndPotions_2300 {
     static class Solution {

@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class ValidAnagram_242 {
     static class Solution {
-        private Map<Character, Integer> map = new HashMap<>();
+        private final Map<Character, Integer> map = new HashMap<>();
         public boolean isAnagramWithMap(String s, String t) {
             fillMap(s);
             for (int i = 0; i < t.length(); i++) {
@@ -56,8 +56,10 @@ public class ValidAnagram_242 {
         var s = "cat";
         var t = "cat";
         System.out.println(new Solution().isAnagram(s, t));
+        System.out.println(new Solution().isAnagramWithMap(s, t));
         s = "cat";
         t = "cac";
         System.out.println(new Solution().isAnagram(s, t));
+        System.out.println(new Solution().isAnagramWithMap(s, t));
     }
 }
