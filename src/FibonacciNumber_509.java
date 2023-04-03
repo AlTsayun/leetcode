@@ -1,15 +1,19 @@
+import java.util.Arrays;
+
 public class FibonacciNumber_509 {
     static class Solution {
-        static final int[] memo = new int[30];
+        static final int[] memo = new int[31];
         static {
-            memo[0] = 1;
+            Arrays.fill(memo, -1);
+            memo[0] = 0;
             memo[1] = 1;
+            memo[2] = 1;
         }
         public int fib(int n) {
-            if (memo[n - 1] == 0) {
-                memo[n - 1] = fib(n - 1) + fib(n - 2);
+            if (memo[n] == -1) {
+                memo[n] = fib(n - 1) + fib(n - 2);
             }
-            return memo[n - 1];
+            return memo[n];
         }
     }
 
