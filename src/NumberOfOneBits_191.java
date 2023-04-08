@@ -1,5 +1,5 @@
 public class NumberOfOneBits_191 {
-    static class Solution {    // you need to treat n as an unsigned value
+    private static class Solution {    // you need to treat n as an unsigned value
         public int hammingWeight(int n) {
             int acc = 0;
             while (n != 0) {

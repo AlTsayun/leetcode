@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 public class ContainsDuplicate_217 {
-    public static class Solution {
+    private static class Solution {
 
         public boolean containsDuplicate(int[] nums) {
             var set = new HashSet<Integer>();

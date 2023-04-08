@@ -1,5 +1,5 @@
 public class BestTimeToBuyAndSellStockSolution_121 {
-    static class Solution {
+    private static class Solution {
         public int maxProfit(int[] prices) {
             int localMaxProfit;
             int maxProfit = 0;

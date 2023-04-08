@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Permutations_46 {
-    static class Solution {
+    private static class Solution {
 
         private int[] nums;
         private ArrayList<List<Integer>> result;

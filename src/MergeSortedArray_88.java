@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class MergeSortedArray_88 {
-    static class Solution {
+    private static class Solution {
         public void merge(int[] nums1, int m, int[] nums2, int n) {
             int i = m-1;
             int j = n-1;

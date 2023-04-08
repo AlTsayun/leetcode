@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Combinations_77 {
-    static class Solution {
+    private static class Solution {
 
         private ArrayList<List<Integer>> result;
         private int maxSize;

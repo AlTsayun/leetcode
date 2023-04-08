@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class TwoSumTwo_167 {
-    static class Solution {
+    private static class Solution {
         public int[] twoSum(int[] numbers, int target) {
             var map = new HashMap<Integer, Integer>(numbers.length);
             for (int i = 0; i < numbers.length; i++) {

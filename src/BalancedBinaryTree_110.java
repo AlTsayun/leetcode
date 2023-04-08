@@ -1,5 +1,5 @@
 public class BalancedBinaryTree_110 {
-    static class Solution {
+    private static class Solution {
         public boolean isBalancedExceptionally(TreeNode root) {
             try {
                 if (root == null) {

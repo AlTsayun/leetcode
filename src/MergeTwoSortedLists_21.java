@@ -1,5 +1,5 @@
 public class MergeTwoSortedLists_21 {
-    static class Solution {
+    private static class Solution {
         public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
             var head = new ListNode();
             var node = head;

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class ReshapeMatrix_566 {
-    static class Solution {
+    private static class Solution {
         public int[][] matrixReshape(int[][] mat, int r, int c) {
             int m = mat.length;
             int n = mat[0].length;

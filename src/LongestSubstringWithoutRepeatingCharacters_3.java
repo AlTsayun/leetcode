@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 public class LongestSubstringWithoutRepeatingCharacters_3 {
-    static class Solution {
+    private static class Solution {
         public int lengthOfLongestSubstring(String s) {
             int length = 0;
             int maxLength = 0;

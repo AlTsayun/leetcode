@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LetterCasePermutation_784 {
-    static class Solution {
+    private static class Solution {
 
         private String s;
         private List<String> result;

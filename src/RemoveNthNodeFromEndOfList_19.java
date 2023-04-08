@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class RemoveNthNodeFromEndOfList_19 {
-    static class Solution {
+    private static class Solution {
         public ListNode removeNthFromEnd2(ListNode head, int n) {
             var preHead = new ListNode();
             preHead.next = head;

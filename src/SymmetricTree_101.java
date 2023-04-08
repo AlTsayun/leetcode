@@ -1,5 +1,5 @@
 public class SymmetricTree_101 {
-    static class Solution {
+    private static class Solution {
         public boolean isSymmetric(TreeNode root) {
             return isSymmetric(root.left, root.right);
         }

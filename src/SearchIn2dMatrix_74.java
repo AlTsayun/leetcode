@@ -1,5 +1,5 @@
 public class SearchIn2dMatrix_74 {
-    static class Solution {
+    private static class Solution {
 
         private int[][] matrix;
 

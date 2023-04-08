@@ -1,5 +1,5 @@
 public class FirstUniqueCharacterInString_387 {
-    static class Solution {
+    private static class Solution {
         public int firstUniqChar(String s) {
             var map = new int[26];
             for (int i = 0; i < s.length(); i++) {

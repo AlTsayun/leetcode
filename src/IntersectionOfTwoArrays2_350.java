@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class IntersectionOfTwoArrays2_350 {
-    static class Solution {
+    private static class Solution {
         public int[] intersect(int[] nums1, int[] nums2) {
             var map = new HashMap<Integer, Integer>(Math.max(nums1.length, nums2.length));
             var intersection = new ArrayList<Integer>(Math.min(nums1.length, nums2.length));

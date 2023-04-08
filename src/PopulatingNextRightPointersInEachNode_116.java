@@ -3,7 +3,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayDeque;
 
 public class PopulatingNextRightPointersInEachNode_116 {
-    static class Solution {
+    private static class Solution {
 
         public Node connectInDepth(Node root) {
             if(root == null) {

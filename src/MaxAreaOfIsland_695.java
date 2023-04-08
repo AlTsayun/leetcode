@@ -1,5 +1,5 @@
 public class MaxAreaOfIsland_695 {
-    static class Solution {
+    private static class Solution {
         private static final int LAND = 1;
         private static final int SEEN_LAND = 2;
         private int[][] map;

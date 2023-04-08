@@ -1,5 +1,5 @@
 public class MaximumSubarray_53 {
-    static class Solution {
+    private static class Solution {
         public int maxSubArray(int[] nums) {
             int maxSum = nums[0];
             int localMaxSum = nums[0];

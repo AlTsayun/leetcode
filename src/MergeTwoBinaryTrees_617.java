@@ -1,5 +1,5 @@
 public class MergeTwoBinaryTrees_617 {
-    static class Solution {
+    private static class Solution {
 
         public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
             var node = new TreeNode(getVal(root1) + getVal(root2));

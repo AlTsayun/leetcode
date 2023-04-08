@@ -8,7 +8,7 @@ public class ZeroOneMatrix_542 {
         System.out.println(Arrays.deepToString(new Solution().updateMatrix(mat)));
     }
 
-    static class Solution {
+    private static class Solution {
         private static final int UNPROCESSED = -1;
         private int[][] mat;
         private final ArrayDeque<int[]> queue = new ArrayDeque<>();

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class FloodFill_733 {
-    static class Solution {
+    private static class Solution {
         private int source;
         private int[][] image;
         private int color;

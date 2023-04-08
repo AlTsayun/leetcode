@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class SuccessfulPairsOfSpellsAndPotions_2300 {
-    static class Solution {
+    private static class Solution {
         private int spell;
         private long success;
 

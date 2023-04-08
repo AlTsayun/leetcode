@@ -1,5 +1,5 @@
 public class BinarySearch_704 {
-    static class Solution {
+    private static class Solution {
         public int searchIterative(int[] nums, int target) {
             return iterativeSearch(nums, target);
         }

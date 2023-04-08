@@ -1,5 +1,5 @@
 public class PowerOfTwo_231 {
-    static class Solution {
+    private static class Solution {
         public boolean isPowerOfTwo(int n) {
             int acc = 0;
             while (n > 0) {

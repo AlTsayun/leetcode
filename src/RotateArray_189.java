@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class RotateArray_189 {
-    static class Solution {
+    private static class Solution {
         public void rotate(int[] nums, int k) {
             k = k % nums.length;
             reverse(nums, 0, nums.length);

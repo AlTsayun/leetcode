@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ValidAnagram_242 {
-    static class Solution {
+    private static class Solution {
         private final Map<Character, Integer> map = new HashMap<>();
         public boolean isAnagramWithMap(String s, String t) {
             fillMap(s);

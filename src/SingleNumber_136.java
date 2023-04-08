@@ -1,5 +1,5 @@
 public class SingleNumber_136 {
-    static class Solution {
+    private static class Solution {
         public int singleNumber(int[] nums) {
             int acc = 0;
             for (int num : nums) {

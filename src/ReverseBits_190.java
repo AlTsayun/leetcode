@@ -1,5 +1,5 @@
 public class ReverseBits_190 {
-    static class Solution {
+    private static class Solution {
         // you need treat n as an unsigned value
         public int reverseBits(int n) {
             n = ((n & 0xffff0000) >>> 16) | ((n & 0x0000ffff) << 16);

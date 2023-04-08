@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class FibonacciNumber_509 {
-    static class Solution {
+    private static class Solution {
         static final int[] memo = new int[31];
         static {
             Arrays.fill(memo, -1);

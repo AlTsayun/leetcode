@@ -7,7 +7,7 @@ public class FirstBadVersion_278 {
             return version >= 4;
         }
     }
-    static class Solution extends VersionControl {
+    private static class Solution extends VersionControl {
         public int firstBadVersion(int n) {
             int min = 1;
             int max = n;

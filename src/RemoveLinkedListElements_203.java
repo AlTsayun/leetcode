@@ -1,5 +1,5 @@
 public class RemoveLinkedListElements_203 {
-    static class Solution {
+    private static class Solution {
         public ListNode removeElements(ListNode head, int val) {
             var preHead = new ListNode();
             preHead.next = head;

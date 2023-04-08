@@ -1,5 +1,5 @@
 public class ReverseLinkedList_206 {
-    static class Solution {
+    private static class Solution {
         public ListNode reverseList(ListNode head) {
             var node = new ListNode();
             while (head != null) {

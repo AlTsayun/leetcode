@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PascalsTriangle_118 {
-    static class Solution {
+    private static class Solution {
         public List<List<Integer>> generate(int numRows) {
             var triangle = new ArrayList<List<Integer>>(numRows);
             for (int i = 1; i < numRows + 1; i++) {

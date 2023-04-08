@@ -1,5 +1,5 @@
 public class ReverseWordsInString3_557 {
-    static class Solution {
+    private static class Solution {
         public String reverseWords(String s) {
             var builder = new StringBuilder(s.length() + 1);
             var wordStart = 0;

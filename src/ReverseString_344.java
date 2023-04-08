@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class ReverseString_344 {
-    static class Solution {
+    private static class Solution {
         public void reverseString(char[] s) {
             char tmp;
             for (int i = 0; i < s.length / 2; i++) {
